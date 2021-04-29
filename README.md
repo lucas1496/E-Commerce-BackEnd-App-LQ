@@ -4,11 +4,14 @@
     
 - This is a back-end application that simulates an e-commerce website using Insomnia Core to handle client requests. It was built by configuring a Express.js to use Sequelize to interact with a My SQL database.
 
-- Database Framework
+- Database Framework:
+
+<img width="940" alt="E-commerceDB Diagram" src="https://user-images.githubusercontent.com/60542798/116517956-49ff6580-a895-11eb-9d9b-c6aed8d96459.png">
 
 
-- Link to demo video:
+## Link to demo video:
 
+- https://drive.google.com/file/d/1kX-UDX0ZbWsYGy2NBKHneuNoDDuiL2r-/view?usp=sharing
 
 ## Table of Contents
 - <a href="#inst">Installation<a>
