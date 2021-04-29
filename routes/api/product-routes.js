@@ -27,7 +27,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (!productData) {
-      res.status(404).json({ message: 'No location found with this id!' });
+      res.status(404).json({ message: 'No product found with this id!' });
       return;
     }
 
@@ -71,7 +71,7 @@ router.post('/', async (req, res) => {
 });
 
 // update product
-router.put('/:id', (req, res) => {
+router.put('/:id', async (req, res) => {
   // update product data
   Product.update(req.body, {
     where: {
